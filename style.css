@@ -1,0 +1,23 @@
+----- style.css----	
+.tree {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.node {
+  text-align: center;
+  padding: 10px;
+}
+
+.node .name {
+  font-weight: bold;
+}
+
+.node .children {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
